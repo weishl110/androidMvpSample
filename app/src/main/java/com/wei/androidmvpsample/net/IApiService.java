@@ -1,7 +1,6 @@
 package com.wei.androidmvpsample.net;
 
 import retrofit2.http.GET;
-import retrofit2.http.Query;
 import rx.Observable;
 
 /**
@@ -9,8 +8,7 @@ import rx.Observable;
  */
 
 public interface IApiService {
-
-    @GET("user/userInfo")
-    Observable<String> loadData(@Query("phone") String phone);
+    @GET("xire-app-user/banner/getBannerInfo/0")
+    Observable<String> getBannerData();
 
 }

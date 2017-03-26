@@ -1,0 +1,15 @@
+ext {
+    android = [compileSdkVersion       : 24,
+               buildToolsVersion       : "24.0.2",
+               minSdkVersion           : 15,
+               targetSdkVersion        : 24,
+               versionCode             : 24,
+               versionName             : "1.2.4",
+               androidSupportSdkVersion: "24.1.1",
+               retrofitSdkVersion      : "2.1.0",
+               dagger2SdkVersion       : "2.8",
+               rxlifecycleSdkVersion   : "1.0",
+               espressoSdkVersion      : "2.2.2"
+    ]
+
+}
